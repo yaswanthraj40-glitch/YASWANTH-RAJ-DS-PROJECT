@@ -1,0 +1,11 @@
+[
+  "ndvi",
+  "building_density",
+  "road_density",
+  "population_density",
+  "distance_to_water",
+  "elevation",
+  "albedo",
+  "income_index",
+  "existing_tree_cover"
+]

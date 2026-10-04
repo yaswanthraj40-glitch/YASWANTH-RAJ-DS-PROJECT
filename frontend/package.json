@@ -1,0 +1,44 @@
+{
+  "name": "coolroute-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.0",
+    "@react-three/drei": "^9.92.0",
+    "@react-three/fiber": "^8.15.0",
+    "@use-gesture/react": "^10.3.0",
+    "deck.gl": "^8.9.0",
+    "framer-motion": "^10.16.0",
+    "gsap": "^3.12.5",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.294.0",
+    "mapbox-gl": "^3.0.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-globe.gl": "^2.24.0",
+    "react-parallax-tilt": "^1.7.220",
+    "react-spring": "^9.7.3",
+    "react-tsparticles": "^2.12.0",
+    "react-vertical-timeline-component": "^3.6.0",
+    "recharts": "^2.10.0",
+    "three": "^0.160.0",
+    "tsparticles": "^2.12.0",
+    "tsparticles-slim": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.0"
+  }
+}

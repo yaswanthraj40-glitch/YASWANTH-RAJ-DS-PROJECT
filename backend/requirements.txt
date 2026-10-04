@@ -1,0 +1,46 @@
+# CoolRoute Backend Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+websockets==12.0
+python-multipart==0.0.6
+
+# ── ML & Data Science ─────────────────────────────────────────────────────────
+xgboost==2.0.3
+scikit-learn==1.4.0
+numpy==1.26.3
+pandas==2.2.0
+scipy==1.12.0
+
+# ── Geospatial ────────────────────────────────────────────────────────────────
+geopandas==0.14.2
+shapely==2.0.2
+
+# ── Explainability ────────────────────────────────────────────────────────────
+# Note: SHAP requires C++ compiler (Visual C++ Build Tools on Windows)
+# If installation fails, the system gracefully uses XGBoost feature_importances_
+shap==0.44.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib==3.8.2
+
+# ── AI Chatbot ────────────────────────────────────────────────────────────────
+openai==1.10.0
+
+# ── Data APIs ─────────────────────────────────────────────────────────────────
+requests==2.31.0
+httpx==0.26.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==7.4.4
+pytest-asyncio==0.23.3
+
+# ── Optional: Google Earth Engine (real satellite data) ───────────────────────
+# Uncomment after setting up GEE credentials:
+# earthengine-api==0.1.390

@@ -1,0 +1,46 @@
+{
+  "model_type": "XGBoost Regressor",
+  "training_date": "2026-08-16T16:20:10.685093",
+  "dataset": {
+    "total_samples": 100,
+    "train_samples": 80,
+    "test_samples": 20,
+    "features": [
+      "ndvi",
+      "building_density",
+      "road_density",
+      "population_density",
+      "distance_to_water",
+      "elevation",
+      "albedo",
+      "income_index",
+      "existing_tree_cover"
+    ]
+  },
+  "hyperparameters": {
+    "n_estimators": 500,
+    "max_depth": 8,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "metrics": {
+    "mae_celsius": 0.9294,
+    "rmse_celsius": 1.1831,
+    "r2_score": 0.9478,
+    "mape_percent": 2.32,
+    "cv_mae_mean": 1.0216,
+    "cv_mae_std": 0.1041
+  },
+  "feature_importance": {
+    "building_density": 0.710099995136261,
+    "ndvi": 0.1712000072002411,
+    "population_density": 0.042899999767541885,
+    "road_density": 0.02539999969303608,
+    "distance_to_water": 0.018799999728798866,
+    "income_index": 0.012900000438094139,
+    "albedo": 0.010999999940395355,
+    "existing_tree_cover": 0.004399999976158142,
+    "elevation": 0.0032999999821186066
+  }
+}
